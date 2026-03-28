@@ -8,29 +8,35 @@
 </head>
 <body>
 
+    <!-- ===== CABEÇALHO ===== -->
     <header>
-        <a href="index.html" class="logo">🕐 Clock<span>Vibe</span></a>
+        <a href="index.html" class="logo">Clock<span>Vibe</span></a>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="temas.html">Temas</a></li>
-                <li><a href="planos.html">Planos</a></li>
+                <li><a href="planos.html" class="ativo">Planos</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- ===== HERO DA PÁGINA ===== -->
     <div class="page-hero">
         <h1>Planos e <span>Preços</span></h1>
-        <p>Escolha o plano ideal para você. Comece gratuitamente.</p>
+        <p>Escolha o plano ideal para você. Comece gratuitamente, sem cartão de crédito.</p>
     </div>
 
+    <!-- ===== CARDS DE PLANOS ===== -->
     <section>
         <div class="container">
             <div class="titulo-secao">
                 <h2>Escolha seu <span>Plano</span></h2>
                 <div class="linha-divisoria"></div>
+                <p>Todos os planos incluem acesso imediato e sem anúncios.</p>
             </div>
             <div class="grade-planos">
+
+                <!-- Plano Gratuito -->
                 <div class="plano-card">
                     <div class="plano-nome">Gratuito</div>
                     <div class="plano-preco">
@@ -39,16 +45,21 @@
                         <span class="periodo">para sempre</span>
                     </div>
                     <ul class="plano-lista">
-                        <li>3 temas básicos</li>
-                        <li>Tamanho fixo</li>
+                        <li>3 temas básicos incluídos</li>
+                        <li>Relógio em tamanho fixo</li>
+                        <li>Exibe hora e data</li>
                         <li>Sem anúncios</li>
-                        <li class="indisponivel">Temas premium</li>
+                        <li class="indisponivel">Temas premium (Hello Kitty, Galáxia...)</li>
+                        <li class="indisponivel">Tamanho ajustável</li>
+                        <li class="indisponivel">Alarmes visuais</li>
                         <li class="indisponivel">Multi-monitor</li>
                     </ul>
-                    <a href="temas.html" class="btn btn-secundario">Começar Grátis</a>
+                    <a href="temas.html" class="btn btn-outline">Começar Grátis</a>
                 </div>
+
+                <!-- Plano Básico (destaque) -->
                 <div class="plano-card destaque">
-                    <div class="plano-popular">Mais Popular</div>
+                    <div class="plano-popular">⭐ Mais Popular</div>
                     <div class="plano-nome">Básico</div>
                     <div class="plano-preco">
                         <span class="cifrao">R$</span>
@@ -56,14 +67,19 @@
                         <span class="periodo">por mês</span>
                     </div>
                     <ul class="plano-lista">
-                        <li>Todos os temas</li>
-                        <li>Tamanho ajustável</li>
+                        <li>Todos os temas gratuitos</li>
+                        <li>Temas premium (Hello Kitty, Galáxia)</li>
+                        <li>Tamanho e posição ajustáveis</li>
                         <li>Alarmes visuais</li>
                         <li>Sem anúncios</li>
+                        <li>Suporte por e-mail</li>
                         <li class="indisponivel">Multi-monitor</li>
+                        <li class="indisponivel">Tema personalizado</li>
                     </ul>
                     <a href="temas.html" class="btn btn-primario">Assinar Básico</a>
                 </div>
+
+                <!-- Plano Pro -->
                 <div class="plano-card">
                     <div class="plano-nome">Pro</div>
                     <div class="plano-preco">
@@ -72,18 +88,106 @@
                         <span class="periodo">por mês</span>
                     </div>
                     <ul class="plano-lista">
-                        <li>Tudo do Básico</li>
-                        <li>Multi-monitor</li>
+                        <li>Tudo do plano Básico</li>
+                        <li>Suporte a multi-monitor</li>
                         <li>Calendário integrado</li>
+                        <li>Tema 100% personalizado</li>
+                        <li>Neon Cyberpunk exclusivo</li>
                         <li>Suporte prioritário</li>
-                        <li>Novos temas antecipados</li>
+                        <li>Novos temas em primeira mão</li>
+                        <li>Exportar configurações</li>
                     </ul>
                     <a href="temas.html" class="btn btn-primario">Assinar Pro</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TABELA DE PROBLEMAS E SOLUÇÕES ===== -->
+    <section class="secao-escura">
+        <div class="container">
+            <div class="titulo-secao">
+                <h2>Problemas e <span>Soluções</span></h2>
+                <div class="linha-divisoria"></div>
+                <p>Como o ClockVibe resolve os principais desafios dos usuários.</p>
+            </div>
+            <table class="tabela-comparativa">
+                <thead>
+                    <tr>
+                        <th>Problema</th>
+                        <th>Impacto</th>
+                        <th>Solução no ClockVibe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Relógio sem personalidade</td>
+                        <td>Área de trabalho genérica</td>
+                        <td>20+ temas visuais disponíveis</td>
+                    </tr>
+                    <tr>
+                        <td>Hora difícil de ver</td>
+                        <td>Perda de tempo e foco</td>
+                        <td>Tamanho e posição ajustáveis</td>
+                    </tr>
+                    <tr>
+                        <td>Sem integração com agenda</td>
+                        <td>Precisa abrir outro app</td>
+                        <td>Calendário integrado no widget</td>
+                    </tr>
+                    <tr>
+                        <td>App pesado e lento</td>
+                        <td>Computador travando</td>
+                        <td>Menos de 5MB de memória RAM</td>
+                    </tr>
+                    <tr>
+                        <td>Anúncios invasivos</td>
+                        <td>Distração e má experiência</td>
+                        <td>Zero anúncios em todos os planos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ===== PERGUNTAS FREQUENTES ===== -->
+    <section>
+        <div class="container">
+            <div class="titulo-secao">
+                <h2>Perguntas <span>Frequentes</span></h2>
+                <div class="linha-divisoria"></div>
+            </div>
+            <div class="grid-2">
+                <div class="card faq-card">
+                    <h3>Posso cancelar a qualquer momento?</h3>
+                    <p>Sim! Você pode cancelar quando quiser, sem multas ou taxas. Após o cancelamento, o acesso premium continua ativo até o fim do período já pago.</p>
+                </div>
+                <div class="card faq-card">
+                    <h3>O plano gratuito é realmente gratuito?</h3>
+                    <p>Sim, para sempre! Não pedimos cartão de crédito para o plano gratuito. Você usa os 3 temas básicos sem nenhum custo e sem prazo de expiração.</p>
+                </div>
+                <div class="card faq-card">
+                    <h3>Como funciona o pagamento?</h3>
+                    <p>Aceitamos cartão de crédito, débito e Pix. A cobrança é mensal e você pode cancelar a qualquer momento sem burocracia.</p>
+                </div>
+                <div class="card faq-card">
+                    <h3>Posso mudar de plano depois?</h3>
+                    <p>Sim! Você pode fazer upgrade ou downgrade do plano a qualquer momento. O valor é ajustado proporcionalmente ao período restante.</p>
+                </div>
+                <div class="card faq-card">
+                    <h3>O Hello Kitty está em qual plano?</h3>
+                    <p>O tema Hello Kitty está disponível nos planos Básico (R$ 9/mês) e Pro (R$ 19/mês). Não está disponível no plano gratuito.</p>
+                </div>
+                <div class="card faq-card">
+                    <h3>Tem período de teste gratuito?</h3>
+                    <p>Sim! Novos usuários têm 7 dias de acesso gratuito ao plano Pro para testar todos os recursos antes de decidir qual plano assinar.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- ===== RODAPÉ ===== -->
     <footer>
         <div class="footer-logo">Clock<span>Vibe</span></div>
         <div class="footer-links">
@@ -91,7 +195,7 @@
             <a href="temas.html">Temas</a>
             <a href="planos.html">Planos</a>
         </div>
-        <p class="footer-copy">© 2026 ClockVibe — Projeto ADS 1º Semestre.</p>
+        <p class="footer-copy">© 2026 ClockVibe — Projeto ADS 1º Semestre. Desenvolvido com HTML e CSS.</p>
     </footer>
 
 </body>
